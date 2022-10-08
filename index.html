@@ -4054,7 +4054,7 @@ _f4u$t.make_checkbox = function(dct, hash) {
   options.init = (dct.init == "1" ? true : false);
   var size = _f4u$t.get_size(dct);
   options.tooltip = _f4u$t.get_tooltip(dct);
-  options.d *= size;
+  options.d *= size*2;
 
   var lm_options = $.extend(true, {}, _f4u$t.vgroup_inits);
   lm_options.axis = _f4u$t.X_AXIS;
